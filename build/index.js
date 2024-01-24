@@ -1,14 +1,8 @@
 "use strict";
-// Classes
-class Character {
-    constructor(name, stregth, skill) {
-        this.name = name;
-        this.stregth = stregth;
-        this.skill = skill;
-    }
-    attack() {
-        console.log(`Attack with ${this.stregth} points`);
-    }
+function concatArray(...itens) {
+    return new Array().concat(...itens);
 }
-const p1 = new Character('pipiu', 10, 98);
-p1.attack();
+const numArray = concatArray([1, 3], [50]);
+const stgArray = concatArray(["natt", "reis"], ['piu']);
+console.log(numArray);
+console.log(stgArray);
