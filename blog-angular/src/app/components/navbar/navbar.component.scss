@@ -1,0 +1,17 @@
+.container__navbar {
+  nav {
+    display: flex;
+    justify-content: center;
+    ul {
+      display: flex;
+      flex-direction: row;
+
+      li, a{
+        margin: 1rem;
+        list-style: none;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
