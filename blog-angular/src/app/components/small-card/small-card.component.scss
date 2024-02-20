@@ -1,0 +1,26 @@
+.container__small-card {
+  width: 40rem;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  .content-small-card {
+    display: flex;
+    flex-direction: row;
+    .small-card__img {
+      img {
+        width: 200px;
+        height: auto;
+        margin-right: 2rem;
+      }
+    }
+    .small-card_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        color: rgb(234, 224, 224);
+        font-size: 1.5rem;
+        margin: 0.9rem 0.2rem;
+      }
+    }
+  }
+}
